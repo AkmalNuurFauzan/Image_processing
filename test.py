@@ -34,6 +34,6 @@ for i in range(384,512):
         # p_map[i, j] = (int(gs), int(gs), int(gs))
         p_map[i,j] = (r, g, b)
 
-img.save("sesudah", format="png")
+img.save("lenna_after.png", format="png")
 
 img.show()
